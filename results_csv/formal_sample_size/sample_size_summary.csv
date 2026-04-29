@@ -1,0 +1,16 @@
+TrainSize,MethodName,MethodLabel,GroupCount,mean_AUC,mean_Pd_Pfa1e2,mean_Pd_Pfa1e3
+10,full,Proposed detector,5,0.7632944,0.1932,0.1612
+10,global_only,Global-pooling variant,5,0.7717544,0.2744,0.146
+10,uniform_weight,Uniform-weight variant,5,0.769528,0.316,0.1704
+20,full,Proposed detector,5,0.7586432,0.268,0.2404
+20,global_only,Global-pooling variant,5,0.7809144,0.2876,0.1988
+20,uniform_weight,Uniform-weight variant,5,0.771988,0.2936,0.2344
+40,full,Proposed detector,5,0.8131088,0.4296,0.3312
+40,global_only,Global-pooling variant,5,0.8031784,0.4088,0.3164
+40,uniform_weight,Uniform-weight variant,5,0.80942,0.4368,0.3912
+80,full,Proposed detector,5,0.8285808,0.4112,0.294
+80,global_only,Global-pooling variant,5,0.8082432,0.3968,0.3068
+80,uniform_weight,Uniform-weight variant,5,0.8178896,0.4284,0.376
+160,full,Proposed detector,5,0.8211448,0.4472,0.4208
+160,global_only,Global-pooling variant,5,0.7879232,0.4232,0.3672
+160,uniform_weight,Uniform-weight variant,5,0.8098024,0.4356,0.4112

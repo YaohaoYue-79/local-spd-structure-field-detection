@@ -1,0 +1,5 @@
+MethodName,MethodLabel,GroupCount,mean_AUC,mean_Pd_Pfa1e2,mean_Pd_Pfa1e3
+double_ablation,Double ablation,5,0.7965752,0.4048,0.3384
+full,Proposed detector,5,0.823968,0.4316,0.3852
+global_only,Without top-local emphasis,5,0.7965752,0.4048,0.3384
+uniform_weight,Without discriminative weighting,5,0.8135296,0.4252,0.368

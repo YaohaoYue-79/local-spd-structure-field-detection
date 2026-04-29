@@ -1,0 +1,106 @@
+MethodName,MethodLabel,AUC,Pd_Pfa1e2,Pd_Pfa1e3,AchPfa1e2,AchPfa1e3,Thr1e2,Thr1e3,NumCalH0,Seed,GroupLabel,PerturbationType
+full,Proposed detector,0.834652,0.538,0.52,0.00995,0.00145,0.0723234683155728,0.0858012905979282,20000,101,Few discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.838572,0.528,0.518,0.00955,0.0011,0.0379181837431714,0.0452182152164202,20000,101,Few discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.814744,0.55,0.534,0.0117,0.0011,0.00556746046584954,0.00798232830722338,20000,101,Few discriminative local structures,LocalStructureCount
+full,Proposed detector,0.804432,0.398,0.342,0.00945,0.0011,0.0467769743431608,0.055700617073333,20000,101,Main local-structure count,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.793852,0.354,0.204,0.00945,0.00095,0.0269981853078699,0.0320606370782975,20000,101,Main local-structure count,LocalStructureCount
+global_only,Global-pooling variant,0.79384,0.3,0.158,0.0099,0.00095,0.00771648212755297,0.00985987096141208,20000,101,Main local-structure count,LocalStructureCount
+full,Proposed detector,0.69612,0.366,0.3,0.0091,0.00125,0.0202962102982612,0.0308134460397489,20000,101,Many discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.697296,0.35,0.296,0.00875,0.0014,0.0109041431166566,0.0156875644266734,20000,101,Many discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.685004,0.276,0.222,0.0087,0.00085,0.00336634352704796,0.00459242047025437,20000,101,Many discriminative local structures,LocalStructureCount
+full,Proposed detector,0.837908,0.54,0.522,0.0109,0.0015,0.060935426486705,0.0704890396812078,20000,102,Few discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.841408,0.528,0.51,0.01115,0.0015,0.0369156677807808,0.0427602296531122,20000,102,Few discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.821076,0.53,0.524,0.01035,0.00125,0.00783598349254697,0.00995214058055002,20000,102,Few discriminative local structures,LocalStructureCount
+full,Proposed detector,0.802184,0.428,0.402,0.00895,0.001,0.0326511664921854,0.0485295903947478,20000,102,Main local-structure count,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.7963,0.418,0.392,0.00945,0.00105,0.0158103881318879,0.0208510450276988,20000,102,Main local-structure count,LocalStructureCount
+global_only,Global-pooling variant,0.776016,0.414,0.384,0.0104,0.00115,0.00387686610312168,0.00591740830620532,20000,102,Main local-structure count,LocalStructureCount
+full,Proposed detector,0.738308,0.34,0.302,0.0081,0.0008,0.0185713753687861,0.0229125123557693,20000,102,Many discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.733084,0.354,0.298,0.00845,0.00085,0.0116057307276204,0.01485880957533,20000,102,Many discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.718856,0.286,0.192,0.0091,0.00045,0.0034854320357909,0.00486234763002712,20000,102,Many discriminative local structures,LocalStructureCount
+full,Proposed detector,0.851052,0.528,0.512,0.00805,0.00095,0.0734207289208063,0.084929220004873,20000,103,Few discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.852032,0.522,0.506,0.00765,0.00085,0.0433063793956577,0.04988927976963,20000,103,Few discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.83306,0.528,0.514,0.0087,0.00115,0.00968586640971124,0.0120595479161788,20000,103,Few discriminative local structures,LocalStructureCount
+full,Proposed detector,0.848124,0.434,0.354,0.00895,0.001,0.034681874521888,0.0498493409186364,20000,103,Main local-structure count,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.832644,0.472,0.422,0.0101,0.00105,0.0130517629155393,0.0171615338950244,20000,103,Main local-structure count,LocalStructureCount
+global_only,Global-pooling variant,0.819836,0.438,0.342,0.0106,0.0011,0.00375403120804898,0.00538673246369789,20000,103,Main local-structure count,LocalStructureCount
+full,Proposed detector,0.673392,0.402,0.33,0.0096,0.0012,0.0229687086961823,0.0354284917527706,20000,103,Many discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.671916,0.388,0.316,0.00995,0.00105,0.0110720249680017,0.0177613664314028,20000,103,Many discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.681076,0.362,0.306,0.00985,0.0011,0.00302760219811337,0.00465911703862573,20000,103,Many discriminative local structures,LocalStructureCount
+full,Proposed detector,0.838016,0.568,0.546,0.0112,0.00125,0.0555028369104496,0.0653394616627039,20000,104,Few discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.840584,0.55,0.536,0.0117,0.0009,0.0306274190413587,0.0361241417096043,20000,104,Few discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.808352,0.558,0.552,0.01015,0.00115,0.00459283550141452,0.00636220665837962,20000,104,Few discriminative local structures,LocalStructureCount
+full,Proposed detector,0.826264,0.444,0.412,0.00875,0.0016,0.0355181616710161,0.0470170303195883,20000,104,Main local-structure count,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.819796,0.438,0.404,0.008,0.0015,0.0166892068402688,0.0209139866840282,20000,104,Main local-structure count,LocalStructureCount
+global_only,Global-pooling variant,0.785792,0.432,0.394,0.00865,0.0014,0.00422605842533095,0.00584044782451436,20000,104,Main local-structure count,LocalStructureCount
+full,Proposed detector,0.66582,0.348,0.29,0.0103,0.0011,0.0200759600308473,0.0357767479629795,20000,104,Many discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.68198,0.346,0.288,0.00915,0.0011,0.00942559033826738,0.0155287145421186,20000,104,Many discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.67872,0.332,0.274,0.0094,0.00075,0.00260583802990169,0.00399000117589597,20000,104,Many discriminative local structures,LocalStructureCount
+full,Proposed detector,0.837212,0.484,0.458,0.0122,0.00105,0.0671382344474022,0.0780908282763407,20000,105,Few discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.850364,0.51,0.486,0.0126,0.00095,0.0378865969860389,0.0444241293719544,20000,105,Few discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.839652,0.518,0.486,0.0114,0.00095,0.00925976303159117,0.0115846688570574,20000,105,Few discriminative local structures,LocalStructureCount
+full,Proposed detector,0.838836,0.454,0.416,0.01025,0.00085,0.0285227483168127,0.0417259721991083,20000,105,Main local-structure count,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.825056,0.444,0.418,0.01035,0.0008,0.0123506837912566,0.0181236239344715,20000,105,Main local-structure count,LocalStructureCount
+global_only,Global-pooling variant,0.807392,0.44,0.414,0.01,0.00165,0.00356833078297959,0.00504040628774483,20000,105,Main local-structure count,LocalStructureCount
+full,Proposed detector,0.678272,0.368,0.33,0.00965,0.0012,0.0155901178431684,0.0279517915992811,20000,105,Many discriminative local structures,LocalStructureCount
+uniform_weight,Uniform-weight variant,0.677248,0.368,0.326,0.01005,0.0011,0.00833091603459497,0.0146483520892067,20000,105,Many discriminative local structures,LocalStructureCount
+global_only,Global-pooling variant,0.666276,0.358,0.326,0.0108,0.0015,0.00210556141535722,0.00350411351585501,20000,105,Many discriminative local structures,LocalStructureCount
+full,Proposed detector,0.812732,0.41,0.36,0.0094,0.0011,0.0482648839996809,0.0575357563475988,20000,101,Slightly stronger structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.802444,0.368,0.238,0.0094,0.001,0.0278900905704287,0.0330460634020873,20000,101,Slightly stronger structural stability,StructuralStrength
+global_only,Global-pooling variant,0.804372,0.32,0.176,0.01035,0.0009,0.00781639582996993,0.0101178115481688,20000,101,Slightly stronger structural stability,StructuralStrength
+full,Proposed detector,0.804432,0.398,0.342,0.00945,0.0011,0.0467769743431608,0.055700617073333,20000,101,Main structured-locality detection scene,StructuralStrength
+uniform_weight,Uniform-weight variant,0.793852,0.354,0.204,0.00945,0.00095,0.0269981853078699,0.0320606370782975,20000,101,Main structured-locality detection scene,StructuralStrength
+global_only,Global-pooling variant,0.79384,0.3,0.158,0.0099,0.00095,0.00771648212755297,0.00985987096141208,20000,101,Main structured-locality detection scene,StructuralStrength
+full,Proposed detector,0.796248,0.39,0.316,0.0095,0.0011,0.0453000524406892,0.0538141934761614,20000,101,Slightly weaker structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.784812,0.328,0.168,0.0094,0.00095,0.0261275154669016,0.0310655507346831,20000,101,Slightly weaker structural stability,StructuralStrength
+global_only,Global-pooling variant,0.782696,0.268,0.14,0.0099,0.001,0.00757816077924453,0.0096269267795034,20000,101,Slightly weaker structural stability,StructuralStrength
+full,Proposed detector,0.787744,0.38,0.268,0.00955,0.0011,0.0437080038407123,0.0520981458116676,20000,101,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+uniform_weight,Uniform-weight variant,0.775628,0.3,0.14,0.00935,0.00095,0.025247040542687,0.0299703780975098,20000,101,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+global_only,Global-pooling variant,0.77142,0.246,0.116,0.0097,0.001,0.0074194321625185,0.00937865047816234,20000,101,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+full,Proposed detector,0.809428,0.432,0.406,0.009,0.001,0.0336950166505366,0.0499424146061839,20000,102,Slightly stronger structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.802776,0.422,0.398,0.00955,0.00095,0.0163793578275552,0.0215789284944189,20000,102,Slightly stronger structural stability,StructuralStrength
+global_only,Global-pooling variant,0.786324,0.42,0.388,0.01035,0.0013,0.00382144476811927,0.00587048849774004,20000,102,Slightly stronger structural stability,StructuralStrength
+full,Proposed detector,0.802184,0.428,0.402,0.00895,0.001,0.0326511664921854,0.0485295903947478,20000,102,Main structured-locality detection scene,StructuralStrength
+uniform_weight,Uniform-weight variant,0.7963,0.418,0.392,0.00945,0.00105,0.0158103881318879,0.0208510450276988,20000,102,Main structured-locality detection scene,StructuralStrength
+global_only,Global-pooling variant,0.776016,0.414,0.384,0.0104,0.00115,0.00387686610312168,0.00591740830620532,20000,102,Main structured-locality detection scene,StructuralStrength
+full,Proposed detector,0.793872,0.428,0.4,0.00885,0.001,0.0316452709531622,0.0477288936769896,20000,102,Slightly weaker structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.7895,0.418,0.39,0.0095,0.001,0.0152807557206155,0.0202385754853649,20000,102,Slightly weaker structural stability,StructuralStrength
+global_only,Global-pooling variant,0.765388,0.41,0.38,0.01085,0.00125,0.00389253875558878,0.00582319583546196,20000,102,Slightly weaker structural stability,StructuralStrength
+full,Proposed detector,0.785228,0.426,0.396,0.0088,0.001,0.0305800797870607,0.0460196274460285,20000,102,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+uniform_weight,Uniform-weight variant,0.78218,0.416,0.386,0.0093,0.001,0.0147357817729518,0.0195517433416818,20000,102,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+global_only,Global-pooling variant,0.75446,0.404,0.37,0.01125,0.0011,0.00392659734629917,0.0058277922825352,20000,102,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+full,Proposed detector,0.852608,0.442,0.362,0.00915,0.001,0.0357837209170208,0.0515137475210952,20000,103,Slightly stronger structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.838168,0.472,0.434,0.0094,0.00105,0.0136628108723396,0.017855638520988,20000,103,Slightly stronger structural stability,StructuralStrength
+global_only,Global-pooling variant,0.82898,0.444,0.364,0.01055,0.00115,0.00382359252957702,0.00552918996187875,20000,103,Slightly stronger structural stability,StructuralStrength
+full,Proposed detector,0.848124,0.434,0.354,0.00895,0.001,0.034681874521888,0.0498493409186364,20000,103,Main structured-locality detection scene,StructuralStrength
+uniform_weight,Uniform-weight variant,0.832644,0.472,0.422,0.0101,0.00105,0.0130517629155393,0.0171615338950244,20000,103,Main structured-locality detection scene,StructuralStrength
+global_only,Global-pooling variant,0.819836,0.438,0.342,0.0106,0.0011,0.00375403120804898,0.00538673246369789,20000,103,Main structured-locality detection scene,StructuralStrength
+full,Proposed detector,0.842248,0.43,0.332,0.0091,0.001,0.0337048819453388,0.0482747387289992,20000,103,Slightly weaker structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.826004,0.464,0.418,0.0105,0.00105,0.0125069962615677,0.0165682982729021,20000,103,Slightly weaker structural stability,StructuralStrength
+global_only,Global-pooling variant,0.810516,0.426,0.312,0.01045,0.0011,0.0036852250678965,0.0052271138171959,20000,103,Slightly weaker structural stability,StructuralStrength
+full,Proposed detector,0.835536,0.418,0.23,0.0091,0.001,0.0324015535756422,0.0464548870020396,20000,103,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+uniform_weight,Uniform-weight variant,0.818348,0.462,0.41,0.01045,0.0011,0.0120430770708874,0.0157927332445991,20000,103,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+global_only,Global-pooling variant,0.80142,0.414,0.286,0.0103,0.00115,0.00359923430207789,0.00508146510764812,20000,103,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+full,Proposed detector,0.83516,0.45,0.418,0.00865,0.00155,0.0367915272809504,0.0484972079285421,20000,104,Slightly stronger structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.826968,0.438,0.404,0.00795,0.0015,0.0173507852923017,0.0217566424750001,20000,104,Slightly stronger structural stability,StructuralStrength
+global_only,Global-pooling variant,0.796228,0.434,0.394,0.0085,0.0012,0.00425753092170756,0.00607330414286234,20000,104,Slightly stronger structural stability,StructuralStrength
+full,Proposed detector,0.826264,0.444,0.412,0.00875,0.0016,0.0355181616710161,0.0470170303195883,20000,104,Main structured-locality detection scene,StructuralStrength
+uniform_weight,Uniform-weight variant,0.819796,0.438,0.404,0.008,0.0015,0.0166892068402688,0.0209139866840282,20000,104,Main structured-locality detection scene,StructuralStrength
+global_only,Global-pooling variant,0.785792,0.432,0.394,0.00865,0.0014,0.00422605842533095,0.00584044782451436,20000,104,Main structured-locality detection scene,StructuralStrength
+full,Proposed detector,0.814304,0.444,0.412,0.00895,0.0015,0.0343257772259406,0.0461444935295636,20000,104,Slightly weaker structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.810256,0.434,0.404,0.00805,0.0015,0.0159917967924553,0.0201113904370538,20000,104,Slightly weaker structural stability,StructuralStrength
+global_only,Global-pooling variant,0.775248,0.418,0.38,0.00895,0.0012,0.00419401688468018,0.00577537237129903,20000,104,Slightly weaker structural stability,StructuralStrength
+full,Proposed detector,0.799356,0.444,0.41,0.00895,0.00155,0.0331910936119127,0.0443615497771784,20000,104,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+uniform_weight,Uniform-weight variant,0.797428,0.434,0.402,0.0081,0.0015,0.0153197438745823,0.0192690221113457,20000,104,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+global_only,Global-pooling variant,0.764292,0.412,0.366,0.00855,0.0009,0.00417933569153476,0.00572045435942046,20000,104,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+full,Proposed detector,0.844756,0.454,0.42,0.01025,0.00085,0.0298120600083027,0.0434151639892946,20000,105,Slightly stronger structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.831696,0.45,0.418,0.01025,0.00085,0.0128335614363434,0.0188506200212471,20000,105,Slightly stronger structural stability,StructuralStrength
+global_only,Global-pooling variant,0.817124,0.442,0.42,0.01055,0.0018,0.0035572081933099,0.00513008224196971,20000,105,Slightly stronger structural stability,StructuralStrength
+full,Proposed detector,0.838836,0.454,0.416,0.01025,0.00085,0.0285227483168127,0.0417259721991083,20000,105,Main structured-locality detection scene,StructuralStrength
+uniform_weight,Uniform-weight variant,0.825056,0.444,0.418,0.01035,0.0008,0.0123506837912566,0.0181236239344715,20000,105,Main structured-locality detection scene,StructuralStrength
+global_only,Global-pooling variant,0.807392,0.44,0.414,0.01,0.00165,0.00356833078297959,0.00504040628774483,20000,105,Main structured-locality detection scene,StructuralStrength
+full,Proposed detector,0.832036,0.452,0.416,0.01045,0.00075,0.0272388227827457,0.0406304770084664,20000,105,Slightly weaker structural stability,StructuralStrength
+uniform_weight,Uniform-weight variant,0.817388,0.442,0.416,0.01025,0.00085,0.0118584260317652,0.0173909564797067,20000,105,Slightly weaker structural stability,StructuralStrength
+global_only,Global-pooling variant,0.796868,0.44,0.41,0.01035,0.0014,0.00355628965729793,0.00501496018011413,20000,105,Slightly weaker structural stability,StructuralStrength
+full,Proposed detector,0.823488,0.452,0.414,0.0104,0.00075,0.0260006076456424,0.0386735323954134,20000,105,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+uniform_weight,Uniform-weight variant,0.807328,0.438,0.416,0.0101,0.00085,0.0113517638169124,0.0165828178899575,20000,105,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength
+global_only,Global-pooling variant,0.78658,0.438,0.4,0.01025,0.0011,0.00353033031582626,0.00495460910088959,20000,105,Boundary auxiliary scene with weakened inter-class structural separation,StructuralStrength

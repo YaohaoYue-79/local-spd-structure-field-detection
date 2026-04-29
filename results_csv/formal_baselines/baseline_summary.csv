@@ -1,0 +1,9 @@
+MethodName,MethodLabel,GroupCount,mean_AUC,mean_Pd_Pfa1e2,mean_Pd_Pfa1e3,mean_AchPfa1e2,mean_AchPfa1e3
+euclidean_structure_field,Euclidean structure-field baseline,5,0.8207056,0.4252,0.3656,0.00935,0.00098
+fro_structure_field,Frobenius structure-field baseline,5,0.8207056,0.4252,0.3656,0.00935,0.00098
+full,Proposed detector,5,0.823968,0.4316,0.3852,0.00927,0.00111
+global_energy,Global energy baseline,5,0.5047688,0.0116,0.0016,0.01015,0.00118
+global_only,Global-pooling variant,5,0.7965752,0.4048,0.3384,0.00991,0.00125
+pooled_covariance,Pooled-covariance baseline,5,0.71664,0.0436,0.0088,0.00966,0.00089
+template_correlation,Template-correlation baseline,5,0.757972,0.43,0.3732,0.01005,0.00115
+uniform_weight,Uniform-weight variant,5,0.8135296,0.4252,0.368,0.00947,0.00107

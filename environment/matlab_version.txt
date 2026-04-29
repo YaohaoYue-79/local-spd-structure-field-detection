@@ -1,0 +1,16 @@
+﻿MATLAB environment
+
+The experiments and plotting scripts were developed and tested in MATLAB.
+
+Recommended MATLAB version:
+- MATLAB R2024a or later
+
+Required toolboxes:
+- Signal Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- Parallel Computing Toolbox is recommended for parallel execution but is not required for understanding the algorithmic implementation.
+
+Notes:
+- The formal experiments may be computationally intensive.
+- Some runner scripts use cached results if available.
+- The controlled SPD-field samples are procedurally generated from the released scripts, configuration notes, and random seeds.

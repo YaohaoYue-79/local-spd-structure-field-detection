@@ -1,0 +1,13 @@
+NoiseName,MethodName,MethodLabel,GroupCount,mean_AUC,mean_Pd_Pfa1e2,mean_Pd_Pfa1e3,mean_AchPfa1e2,mean_AchPfa1e3
+Gaussian background perturbation,full,Proposed detector,5,0.8239848,0.4324,0.3848,0.0092,0.00106
+Gaussian background perturbation,global_only,Global-pooling variant,5,0.796608,0.4064,0.3396,0.01016,0.00126
+Gaussian background perturbation,uniform_weight,Uniform-weight variant,5,0.8134864,0.4248,0.368,0.00953,0.00108
+Heavy-tailed background perturbation,full,Proposed detector,5,0.8239992,0.4324,0.3848,0.0093,0.00105
+Heavy-tailed background perturbation,global_only,Global-pooling variant,5,0.7966656,0.404,0.338,0.00993,0.00124
+Heavy-tailed background perturbation,uniform_weight,Uniform-weight variant,5,0.8134552,0.424,0.3692,0.00941,0.00108
+Impulsive background perturbation,full,Proposed detector,5,0.8240552,0.432,0.3848,0.0092,0.00107
+Impulsive background perturbation,global_only,Global-pooling variant,5,0.7965096,0.4044,0.336,0.00989,0.00113
+Impulsive background perturbation,uniform_weight,Uniform-weight variant,5,0.813624,0.426,0.368,0.00941,0.00101
+Laplacian background perturbation,full,Proposed detector,5,0.8238072,0.4316,0.384,0.00922,0.00106
+Laplacian background perturbation,global_only,Global-pooling variant,5,0.7964712,0.4044,0.338,0.00993,0.00124
+Laplacian background perturbation,uniform_weight,Uniform-weight variant,5,0.813436,0.4252,0.3684,0.00946,0.00105
