@@ -6,7 +6,7 @@ This repository contains the reproducibility package for the manuscript:
 
 ## Overview
 
-This project implements an information-geometric detector based on local symmetric positive definite (SPD) structure fields. The method constructs local SPD structure fields, estimates class-conditional pointwise Karcher mean reference fields under the affine-invariant Riemannian metric (AIRM), computes local relative-closeness evidence, and performs fixed-\(P_{\mathrm{fa}}\) threshold calibration using an independent \(H_0\) calibration set.
+This project implements an information-geometric detector based on local symmetric positive definite (SPD) structure fields. The method constructs local SPD structure fields, estimates class-conditional pointwise Karcher mean reference fields under the affine-invariant Riemannian metric (AIRM), computes local distance-difference evidence, and performs fixed-\(P_{\mathrm{fa}}\) threshold calibration using an independent \(H_0\) calibration set.
 
 The experiments are conducted on procedurally generated controlled SPD-field samples. No external dataset is used in the main experiments. The complete experimental data can be regenerated from the released scene-generation scripts, configuration notes, and random seeds.
 
@@ -135,4 +135,4 @@ The data used in this study are procedurally generated controlled SPD-field samp
 
 ## Status
 
-This repository is under preparation for manuscript submission. Some filenames retain internal development labels for traceability; the public scene name used in the manuscript is **Main structured-locality detection scene**.
+This repository serves as the public reproducibility package for the submitted manuscript. Some filenames retain internal development labels for traceability; the public scene name used in the manuscript is Main structured-locality detection scene.
