@@ -1,6 +1,6 @@
-﻿# Local SPD Structure-Field Detection
+# Local SPD Structure-Field Detection
 
-This repository contains the reproducibility package for the manuscript:
+This repository contains the reproducibility package for the accepted manuscript:
 
 **Information-Geometric Detection via Local SPD Structure Fields in the Time-Frequency Domain**
 
@@ -29,24 +29,24 @@ seeds/              Random seeds used in formal experiments
 The experiments reported in the main manuscript are:
 
 1. **Main performance evaluation**
-   - Nominal SNR-index sweep under the main structured-locality detection scene.
-   - Supports Figure 1 and Figure 2.
+   - Nominal SNR/SCR-like index sweep under the main structured-locality detection scene.
+   - Supports manuscript Figures 2 and 3.
 
 2. **Baseline comparison**
    - Comparison with global-energy, pooled-covariance, template-correlation, and structure-field baselines.
-   - Supports Figure 3 and Table 3.
+   - Supports manuscript Figure 4 and Table 3.
 
-3. **Ablation analysis**
-   - Comparison among the proposed detector, the uniform-weight variant, and the global-pooling variant.
-   - Supports Figure 4 and paired-difference analysis.
+3. **Ablation analysis and paired-difference analysis**
+   - Comparison among the proposed detector, the uniform-weight variant, the global-pooling variant, and the double-ablation variant.
+   - Supports manuscript Figure 5 and Table 4.
 
 4. **Structural perturbation experiment**
    - Robustness evaluation under structural-strength perturbations around the main scene.
-   - Supports Figure 5.
+   - Supports manuscript Figure 6.
 
 5. **Non-Gaussian robustness experiment**
    - Robustness evaluation under Gaussian, Laplace-distributed, impulsive, and heavy-tailed field-level perturbations.
-   - Supports Figure 6.
+   - Supports manuscript Figure 7.
 
 ## Supplementary and Auxiliary Experiments
 
@@ -64,7 +64,7 @@ These supplementary experiments are not the main focus of the manuscript but are
 
 The final main-performance results use merged CSV files.
 
-During the first run of the main experiment, the high nominal SNR-index range from \(-8\) dB to \(0\) dB was affected by clipping due to the upper and lower bounds in the nuisance/background difficulty mapping. A corrected high-index extension was therefore run for the range \(-8:2:0\) dB. The corrected high-index results were then merged with the original main-performance CSV files to obtain the final nominal SNR-index sweep used in the manuscript.
+During the first run of the main experiment, the high nominal SNR/SCR-like index range from \(-8\) dB to \(0\) dB was affected by clipping due to the upper and lower bounds in the nuisance/background difficulty mapping. A corrected high-index extension was therefore run for the range \(-8:2:0\) dB. The corrected high-index results were then merged with the original main-performance CSV files to obtain the final nominal SNR/SCR-like index sweep used in the manuscript.
 
 Relevant files include:
 
@@ -76,19 +76,30 @@ results_csv/formal_main_performance/main_performance_detail_merged.csv
 results_csv/formal_main_performance/main_performance_summary_merged.csv
 ```
 
-The files with the suffix `merged` correspond to the final main-performance results used for Figure 1 and Figure 2.
+The files with the suffix `merged` correspond to the final main-performance results used for manuscript Figures 2 and 3.
 
 ## Figures
 
-The `figures/` directory contains the final figures used or prepared for the manuscript:
+The `figures/` directory contains the final figures used or prepared for the manuscript. The file names retain internal development labels, while the corresponding manuscript figure numbers are listed below:
 
 ```text
 fig1_main_auc_vs_nominal_snr_index_ci.pdf / .png
+    Manuscript Figure 2: AUC versus nominal SNR/SCR-like index
+
 fig2_main_fixed_pfa_vs_nominal_snr_index_ci.pdf / .png
+    Manuscript Figure 3: Fixed-Pfa detection probability curves
+
 fig3_baseline_comparison_ci.pdf / .png
+    Manuscript Figure 4: Baseline comparison
+
 fig4_ablation_analysis_main.pdf / .png
+    Manuscript Figure 5: Ablation analysis
+
 fig5_structure_strength_perturbation_main.pdf / .png
+    Manuscript Figure 6: Structural perturbation robustness
+
 fig6_nongaussian_main_figure_v3.pdf / .png
+    Manuscript Figure 7: Non-Gaussian robustness
 ```
 
 ## Results CSV Files
@@ -135,4 +146,4 @@ The data used in this study are procedurally generated controlled SPD-field samp
 
 ## Status
 
-This repository serves as the public reproducibility package for the submitted manuscript. Some filenames retain internal development labels for traceability; the public scene name used in the manuscript is Main structured-locality detection scene.
+This repository provides the reproducibility package for the accepted manuscript **“Information-Geometric Detection via Local SPD Structure Fields in the Time-Frequency Domain”**. Some filenames retain internal development labels for traceability; the public scene name used in the manuscript is **“Main structured-locality detection scene”**.
