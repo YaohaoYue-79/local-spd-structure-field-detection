@@ -47,7 +47,7 @@ The experiments reported in the main manuscript are:
 5. **Non-Gaussian robustness experiment**
    - Robustness evaluation under Gaussian, Laplace-distributed, impulsive, and heavy-tailed field-level perturbations.
    - Supports manuscript Figure 7.
-   - 
+   
 ## Supplementary and Auxiliary Experiments
 
 The repository also includes additional experiments that are used as supplementary or auxiliary analyses:
