@@ -80,9 +80,12 @@ The files with the suffix `merged` correspond to the final main-performance resu
 
 ## Figures
 
-The `figures/` directory contains the final figures used or prepared for the manuscript. The file names retain internal development labels, while the corresponding manuscript figure numbers are listed below:
+The `figures/` directory contains the final figures used or prepared for the manuscript. Some file names retain internal development labels from the experiment-generation stage. The corresponding manuscript figure numbers are listed below:
 
 ```text
+method_overview.pdf
+    Manuscript Figure 1: Method overview of the proposed local SPD structure-field detector
+
 fig1_main_auc_vs_nominal_snr_index_ci.pdf / .png
     Manuscript Figure 2: AUC versus nominal SNR/SCR-like index
 
@@ -98,10 +101,8 @@ fig4_ablation_analysis_main.pdf / .png
 fig5_structure_strength_perturbation_main.pdf / .png
     Manuscript Figure 6: Structural perturbation robustness
 
-fig6_nongaussian_main_figure_v3.pdf / .png
+fig6_nongaussian_main_figure.pdf / .png
     Manuscript Figure 7: Non-Gaussian robustness
-```
-
 ## Results CSV Files
 
 The `results_csv/` directory contains the CSV files supporting the reported figures and tables:
